@@ -19,7 +19,7 @@ public class Test
 		
 		System.out.println("introduce la cantidad a ingresar: ");//introducimos el dato en string
 		cantidadingresar = Double.parseDouble( flujoE.readLine());//pasamos el string a doble
-		System.out.println("cantidad ingresada: " + cantidadingresar);
+		System.out.println("cantidad ingresadas: " + cantidadingresar);
 		
 		CCuenta cuenta01 = new CCuenta();
 		CCuenta cuenta02 = new CCuentaAhorro("Manuel Rodriguez", "Cuenta Principal",20000,3.5);
